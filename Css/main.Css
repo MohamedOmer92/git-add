@@ -1,0 +1,171 @@
+ /* stat Global */
+*{
+    margin:0;
+    padding: 0; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box; 
+
+}
+/*end Global */
+
+body{
+    font-family: Arial,Tahoma 
+
+}
+ul{
+    list-style: none;
+   
+
+
+}
+.clearfix{
+    clear: both;
+}
+ 
+
+.main{
+    background-color: #333;
+    color: #DDD ;
+    padding: 20px;
+    text-align: center;
+
+}
+/* Star Nav */
+nav{
+    background-color: #DDD;
+}
+
+ nav ul{
+     padding: 20px;
+  text-align: center;
+}
+nav ul li{
+
+    display: inline-block;
+    padding: 5px; 
+}
+
+nav ul li:after {
+    content: " |"
+}
+
+nav ul li:last-child:after{
+content: ""
+}
+
+/*End Nav*/
+
+
+
+/* Star Main */
+main{
+    background-color: #717A8E;
+    padding: 20px
+
+}
+main p{
+    text-align: center;
+
+}
+ main span{
+     font-weight: bold;
+     color: #ffc1c1;
+
+ }
+  main p mark{
+      background-color: #00f;
+      color: #666;
+
+  }
+
+/*End Main */
+
+
+/*star Artical */
+.post{
+    width: 70% ;
+    float: left ; 
+}
+ .post article{
+     padding: 20px;
+     background-color:rgb(224, 205, 169);
+     border: 1px solid rgb(160, 103, 103);
+     margin: 20px;
+ }
+
+ .post article header{
+     background-color:#b7b8d1 ;
+     padding: 10px ;
+     
+ }
+
+ .post article section{
+     padding: 10px;
+
+ }
+ .post article section details {
+     margin: 10px 0;
+
+ }
+
+ .post article section .long-link{
+width: 200px;
+
+ }
+/*end Artical */
+
+/* Star Aside */
+
+aside{
+    float: right;
+    width: 30%;
+
+}
+aside section{
+    background-color: rgba(88, 155, 231, 0.76);
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px
+
+
+}
+
+aside section h3{
+    background-color: #f2707087;
+    padding: 10px;
+
+}
+
+aside section ul{
+    margin-top: 10px;
+
+}
+
+aside section ul li{
+    line-height: 1.8 
+}
+
+aside section div{
+    margin-top: 10px;
+
+}
+
+
+/*End Aside*/
+
+
+/* Star Footer */
+
+footer {
+    background-color: #333;
+    color: #DDD;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+
+/*End Footer */
